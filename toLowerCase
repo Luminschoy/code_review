@@ -1,5 +1,5 @@
 //Less memory usage
-#include <ctype.h>
+
 char* toLowerCase(char* str) {
     size_t str_len= strlen(str);
     for(int i=0 ;i<str_len;i++)
